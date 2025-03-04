@@ -1,0 +1,88 @@
+minify: true
+darkmode: true
+language_switcher: false
+cache:
+  enable: false
+footer:
+  since: 2025
+  icon:
+    animated: true
+sidebar:
+  display: hide
+creative_commons:
+  sidebar: false
+  post: false
+scheme: Mist
+menu:
+  home: / || fa fa-home
+  People: /people/ || fa-solid fa-people-group
+  Publications: /publications/ || fa-solid fa-book
+menu_settings:
+  badges: false
+social:
+  GitHub: https://github.com/jinzhezenggroup || fab fa-github
+  E-Mail: mailto:jinzhe.zeng@ustc.edu.cn || fa fa-envelope
+social_icons:
+  icons_only: true
+  transition: true
+reward_settings:
+  enable: false
+mobile_layout_economy: true
+pjax: false
+lazyload: true
+mediumzoom: true
+pangu: true
+quicklink:
+  enable: true
+  home: true
+  archive: true
+motion:
+  enable: false
+  async: true
+related_posts:
+   enable: false
+post_edit:
+  enable: false
+note:
+  style: modern
+  icons: true
+codeblock:
+  copy_button:
+    enable: true
+    show_result: true
+reading_progress:
+  enable: true
+bookmark:
+  enable: true
+github_banner:
+  enable: false
+seo: true
+index_with_subtitle: true
+exturl: true
+baidu_push: false
+math:
+  mathjax:
+    enable: true
+local_search:
+  enable: false
+pdf:
+  enable: true
+links_settings:
+  icon: fa fa-link
+  title: Friend Links
+  layout: block
+vendors:
+  internal: jsdelivr
+  plugins: jsdelivr
+nprogress:
+  enable: true
+preconnect: true
+custom_file_path:
+  style: source/_data/styles.styl
+avatar:
+  url: https://s2.loli.net/2025/03/04/zUqsn62yvNQH4L1.png
+favicon:
+  small: https://s2.loli.net/2025/03/04/zUqsn62yvNQH4L1.png
+  medium: https://s2.loli.net/2025/03/04/zUqsn62yvNQH4L1.png
+  apple_touch_icon: https://s2.loli.net/2025/03/04/zUqsn62yvNQH4L1.png
+  safari_pinned_tab: https://s2.loli.net/2025/03/04/zUqsn62yvNQH4L1.png

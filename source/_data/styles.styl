@@ -1,0 +1,161 @@
+.experience {
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0;
+    grid-template-columns: 1fr;
+}
+
+.experience .experience-container {
+    min-height: 5rem;
+    min-width: 0;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.experience .experience-container:hover {
+    background: var(--card-bg-color);
+}
+
+.experience .experience-container .experience-image {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 5rem;
+    padding: 3px;
+    width: 5rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 1rem;
+    position: unset;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+.experience .experience-container p {
+    line-height: 1.7rem;
+    /* margin-left is 0 */
+    margin: 0 1rem 0 7rem;
+}
+
+.experience .experience-container p:first-of-type {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.experience .experience-container p:last-of-type {
+    font-size: 0.75em;
+    line-height: 1.3rem;
+}
+
+.experience .experience-container p {
+    font-size: 0.9em;
+}
+
+.experience .experience-container a {
+    border: 0;
+    height: auto;
+    width: auto;
+    top: auto;
+    left: auto;
+    position: unset;
+}
+
+.experience-icons {
+    float: right;
+}
+
+.experience-icons .experience-icon:not(:first-of-type) {
+    /* do not add margin for the first icon */
+    margin-left: 3px;
+}
+
+.experience .experience-container {
+    box-shadow: none;
+}
+
+.experience .experience-container:hover {
+    animation: none;
+}
+
+.people {
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0;
+    grid-template-columns: 3fr;
+}
+
+.people .people-container {
+    min-height: 5rem;
+    min-width: 0;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    justify-content: center;
+    width: 10rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.people .people-container:hover {
+    background: var(--card-bg-color);
+}
+
+.people .people-container .people-image {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 5rem;
+    padding: 3px;
+    width: 5rem;
+    border-radius: 50%;
+    position: unset;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+.people .people-container p {
+    line-height: 1.7rem;
+    /* margin-left is 0 */
+    margin: 0 0 0 0rem;
+    text-align: center;
+}
+
+.people .people-container p:first-of-type {
+    font-size: 1.2em;
+}
+
+.people .people-container p {
+    font-size: 0.9em;
+}
+
+.people .people-container a {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.people-icons {
+    float: right;
+}
+
+.people-icons .people-icon:not(:first-of-type) {
+    /* do not add margin for the first icon */
+    margin-left: 3px;
+}
+
+.people .people-container {
+    box-shadow: none;
+}
+
+.people .people-container:hover {
+    animation: none;
+}
